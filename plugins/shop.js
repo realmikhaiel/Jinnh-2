@@ -1,3 +1,9 @@
+/* 
+codded by @Mikhaiel
+use this git under copyright
+dont change credit
+*/
+
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
