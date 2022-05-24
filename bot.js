@@ -70,8 +70,8 @@ async function whatsAsena () {
     
     
     const conn = new WAConnection();
-    conn.version = [2,2121,7];
     const Session = new StringSession();
+    conn.browserDescription = ['Jimbru v2.0.1', 'Safari', '90']
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
